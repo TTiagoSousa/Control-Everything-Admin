@@ -1,5 +1,7 @@
 {
   "translation": {
-    "Sign In" : "Iniciar sessão"
+    "Sign In" : "Iniciar sessão",
+    "Dark Mode" : "Modo escuro",
+    "Light Mode" : "Modo claro"
   }
 }
