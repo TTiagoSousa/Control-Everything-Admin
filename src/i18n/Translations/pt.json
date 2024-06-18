@@ -2,6 +2,9 @@
   "translation": {
     "Sign In" : "Iniciar sessão",
     "Dark Mode" : "Modo escuro",
-    "Light Mode" : "Modo claro"
+    "Light Mode" : "Modo claro",
+    "Employee number" : "Número de empregado",
+    "Email" : "Email",
+    "Password" : "Senha"
   }
 }

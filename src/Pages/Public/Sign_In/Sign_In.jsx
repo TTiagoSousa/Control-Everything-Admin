@@ -34,7 +34,7 @@ const Sign_In = () => {
         </div>
         <div className="Button_Field">
           <Global_Button 
-            Text="Sign In"
+            Text={t("Sign In")}
           />
         </div>
       </form>
