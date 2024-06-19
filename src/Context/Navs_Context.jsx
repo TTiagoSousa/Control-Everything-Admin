@@ -13,38 +13,37 @@ const NavsContext = ({ children }) => {
   // Alert
 
   // Choose navigation type
-    const [typeOfNavifation, setTypeOfNavifation] = useState(
-      localStorage.getItem("sidebarPosition") || "Sidebar_Home"
-    );
+  const [typeOfNavifation, setTypeOfNavifation] = useState(
+    localStorage.getItem("sidebarPosition") || (window.innerWidth < 1100 ? "Mobile_Menu" : "Sidebar_Home")
+  );
 
-    useEffect(() => {
-      localStorage.setItem("sidebarPosition", typeOfNavifation);
-    }, [typeOfNavifation]);
+  useEffect(() => {
+    localStorage.setItem("sidebarPosition", typeOfNavifation);
+  }, [typeOfNavifation]);
 
-    function handleTypeofPositionChange(e) {
-      const position = e.target.value;
-      switch (position) {
-        case "Sidebar_Home":
-        case "Top_Nav_Navigation":
-        case "Mobile_Menu":
-          setTypeOfNavifation(position);
-          break;
-        default:
-          console.log("Invalid position");
-      }
+  function handleTypeofPositionChange(e) {
+    const position = e.target.value;
+    switch (position) {
+      case "Sidebar_Home":
+      case "Top_Nav_Navigation":
+      case "Mobile_Menu":
+        setTypeOfNavifation(position);
+        break;
+      default:
+        console.log("Invalid position");
+    }
+  }
+
+  useEffect(() => {
+    function handleResize() {
+      const isMobile = window.innerWidth < 1100;
+      setTypeOfNavifation(isMobile ? "Mobile_Menu" : "Sidebar_Home");
     }
 
-    useEffect(() => {
-      function handleResize() {
-        const isMobile = window.innerWidth < 1000;
-        if (isMobile) {
-          setTypeOfNavifation("Mobile_Menu");
-        }
-    }
-      handleResize();
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   // Choose navigation type
 
   // Open SideBarHome
