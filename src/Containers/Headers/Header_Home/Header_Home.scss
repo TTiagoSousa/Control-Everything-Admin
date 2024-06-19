@@ -15,6 +15,37 @@
 
   .Left_Side{
     position: relative;
+
+    .Menu{
+      width: 50px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.With_SideBar{
+        display: none;
+      }
+
+      button{
+        width: auto;
+        height: 100%;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4px;
+        cursor: pointer;
+
+        div{
+          background-color: $blue;
+          width: 20px;
+          height: 2px;
+        }
+      }
+    }
   }
 
   .Right_Side{

@@ -15,6 +15,16 @@
     align-items: center;
     flex-direction: column;
   }
+
+  .Container_With_MobileMenu{
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    transition: 0.3s all;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 800px){
