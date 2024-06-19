@@ -9,6 +9,12 @@
   align-items: center;
   justify-content: center;
 
+  .Alert{
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+  }
+
   form{
     display: flex;
     flex-direction: column;
