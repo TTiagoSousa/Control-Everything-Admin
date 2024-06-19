@@ -61,7 +61,7 @@ export const useSignin = () => {
       });
 
       setTimeout(() => {
-        navigate('/CE_Work_Space');
+        navigate('/CE_Work_Space/Home');
         window.location.reload();
       }, 3000);
       
