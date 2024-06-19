@@ -1,0 +1,82 @@
+@import '../../../Styles/Colors.scss';
+@import '../../../Styles/Fonts.scss';
+
+.Header_Home{
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+
+  .Left_Side{
+    position: relative;
+  }
+
+  .Right_Side{
+    position: relative;
+    display: flex;
+    gap: 10px;
+
+    .Button_Field{
+      position: relative;
+      width: 21px;
+      height: 21px;
+    }
+
+    .Nav_Button{  
+      display: none;
+
+      button{
+        background: none;
+        border: none;
+        font-family: $font_family_poppins;
+        color: $blue_darker;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px){
+  .Header_Home{
+    width: 100%;
+
+    .Rigth_Side{
+
+      .Nav_Button{
+        display: block;
+      }
+    }
+  }
+}  
+
+.Dark_Mode{
+
+  .Header_Home{
+
+    .Left_Side{
+
+      h1{
+        color: $gray;
+      }
+    }
+  }
+}
+
+.Light_Mode{
+
+  .Header_Home{
+
+    .Left_Side{
+
+      h1{
+        color: $gray_dark;
+      }
+    }
+  }
+}
