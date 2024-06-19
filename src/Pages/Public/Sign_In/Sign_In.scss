@@ -1,0 +1,82 @@
+@import '../../../Styles/Colors.scss';
+@import '../../../Styles/Fonts.scss';
+@import '../../../Styles/Formats.scss';
+
+.Sign_In{
+  @include Pages_Configs;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .Alert{
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: $border_radius;
+
+    .Title,
+    .Input_Field,
+    .Button_Field{
+      width: 350px;
+      height: 30px;
+    }
+
+    .Title{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h1{
+        font-family: $font_family_poppins;
+        font-size: 22px;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+
+.Dark_Mode{
+
+  .Sign_In{
+
+    form{
+      background-color: $secundary_color_dark;
+      box-shadow: $box_shadow_dark;
+      border: $border;
+
+      .Title{
+
+        h1{
+          color: $gray;
+        }
+      }
+    }
+  }
+}
+
+.Light_Mode{
+
+  .Sign_In{
+
+    form{
+      background-color: $secundary_color_light;
+      box-shadow: $box_shadow_light;
+      border: $border;
+
+      .Title{
+
+        h1{
+          color: $gray_darker;
+        }
+      }
+    }
+  }
+}
