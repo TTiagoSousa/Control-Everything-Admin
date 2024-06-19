@@ -5,10 +5,14 @@ import * as Color from '../../../Styles/Colors';
 import * as Icon from '../../../Imports/icons';
 import { navItems } from '../Navigation_Map';
 import { ThemeState } from '../../../Context/Theme_Context';
+import { getCookie } from '../../../Utils/Cookies/cookies';
 
 const Sidebar_Home = () => {
 
   const { mode } = ThemeState();
+
+  const employeeType = getCookie('rega434tgr_#23efdf2df');
+  const NavMap = navItems[employeeType] || [];
   
   // Styles
     const activeNavLinkStyle = {
@@ -58,7 +62,7 @@ const Sidebar_Home = () => {
   return (
     <nav className='Sidebar_Home'>
       <div className="Sidebar_Body">
-        {navItems.map((item, index) => (
+        {NavMap.map((item, index) => (
           <React.Fragment key={index}>
             {item.dropdownItems ? (
               <div style={{position: "relative"}}>
