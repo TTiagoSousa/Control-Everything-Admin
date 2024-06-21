@@ -19,8 +19,12 @@ const Validations = () => {
           <Link target="_blank" to="https://docs.google.com/document/d/1zLgLU7if9P0cMxyPYqDI5mKu9hPIx_5mzx8PyCDsmIM/edit?usp=drive_link"><span>Link</span></Link>
         </div>
         <div className='Card'>
-          <span>Send email to recover password</span>
+          <span>Sign in user</span>
           <Link target="_blank" to="https://docs.google.com/document/d/1l_rEO56soLYtemNOBGPt005rMih5l3-uRHFkloNZqpo/edit?usp=drive_link"><span>Link</span></Link>
+        </div>
+        <div className='Card'>
+          <span>Reset password user</span>
+          <Link target="_blank" to="https://docs.google.com/document/d/1y7UFNL3lQXREBF-cRa5wUH2HfOBqpdkyWmDXelUkMXI/edit?usp=drive_link"><span>Link</span></Link>
         </div>
       </div>
     </div>
