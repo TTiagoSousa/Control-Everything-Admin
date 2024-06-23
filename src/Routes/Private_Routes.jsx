@@ -12,7 +12,8 @@ const Private_Routes = () => {
           <Route path='Validations' element={ <Private_Page.Validations /> } />
         </Route>
         <Route path='Apis'> 
-          <Route path='Dashboard' element={ <Private_Page.Apis_Dashboard /> } />
+          <Route index element={ <Private_Page.Apis_Dashboard /> } />
+          <Route path='Countries_Api/' element={ <Private_Page.Countries_Api /> } />
         </Route>
       </Routes>
     </>

@@ -1,0 +1,56 @@
+@import '../../../../Styles/Formats.scss';
+@import '../../../../Styles/Colors.scss';
+@import '../../../../Styles/Fonts.scss';
+
+.Countries_Api{
+  @include Pages_Configs;
+  height: 95vh;
+
+  .Used_Api{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: $border_radius;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border: $border;
+
+    a{
+      text-decoration: none;
+      font-family: $font_family_poppins;
+      font-size: 14px;
+    }
+  }
+}
+
+.Dark_Mode{
+
+  .Countries_Api{
+
+    .Used_Api{
+      background-color: $secundary_color_dark;
+      box-shadow: $box_shadow_dark;
+
+      a{
+        color: $gray;
+      }
+    }
+  }
+}
+
+.Light_Mode{
+
+  .Countries_Api{
+
+    .Used_Api{
+      background-color: $secundary_color_light;
+      box-shadow: $box_shadow_light;
+
+      a{
+        color: $gray_dark;
+      }
+    }
+  }
+}

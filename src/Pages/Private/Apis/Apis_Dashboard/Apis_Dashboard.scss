@@ -5,4 +5,72 @@
 .Apis_Dashboard{
   @include Pages_Configs;
   height: 95vh;
+
+  .Apis_List{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .Card{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      border-radius: $border_radius;
+      align-items: center;
+      padding: 10px;
+      box-sizing: border-box;
+      border: $border;
+
+      span, a{
+        font-family: $font_family_poppins;
+        text-decoration: none;
+        font-size: 15px;
+      }
+
+      a{
+
+        span{
+          color: $blue !important;
+        }
+      }
+    }
+  }
+}
+
+.Dark_Mode{
+
+  .Apis_Dashboard{
+
+    .Apis_List{
+
+      .Card{
+        background-color: $secundary_color_dark;
+        box-shadow: $box_shadow_dark;
+        
+        span{
+          color: $gray;
+        }
+      }
+    }
+  }
+}
+
+.Light_Mode{
+
+  .Apis_Dashboard{
+
+    .Apis_List{
+
+      .Card{
+        background-color: $secundary_color_light;
+        box-shadow: $box_shadow_light;
+        
+        span{
+          color: $gray_darker;
+        }
+      }
+    }
+  }
 }
