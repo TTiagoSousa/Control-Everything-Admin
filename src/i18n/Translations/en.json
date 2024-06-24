@@ -6,6 +6,11 @@
     "Employee number" : "Employee number",
     "Email" : "Email",
     "Password" : "Password",
-    "Back to dasboard" : "Back to dasboard"
+    "Back to dasboard" : "Back to dasboard",
+    "Sign in employee" : "Sign in employee",
+    "Sign up user" : "Sign up user",
+    "Send email to recover password" : "Send email to recover password",
+    "Sign in user" : "Sign in user",
+    "Reset password user" : "Reset password user"
   }
 }

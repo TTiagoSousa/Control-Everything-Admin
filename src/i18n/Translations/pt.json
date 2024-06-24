@@ -6,6 +6,11 @@
     "Employee number" : "Número de empregado",
     "Email" : "Email",
     "Password" : "Senha",
-    "Back to dasboard" : "Voltar para o dashboard"
+    "Back to dasboard" : "Back to dasboard",
+    "Sign in employee" : "Login de empregado",
+    "Sign up user" : "Registrar utilizador",
+    "Send email to recover password" : "Enviar email para recuperar senha",
+    "Sign in user" : "Login de empregado",
+    "Reset password user" : "Resetar a senha do utilizador"
   }
 }
