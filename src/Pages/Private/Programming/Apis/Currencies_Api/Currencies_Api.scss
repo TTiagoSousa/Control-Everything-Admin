@@ -1,8 +1,8 @@
-@import '../../../../Styles/Formats.scss';
-@import '../../../../Styles/Colors.scss';
-@import '../../../../Styles/Fonts.scss';
+@import '../../../../../Styles/Formats.scss';
+@import '../../../../../Styles/Colors.scss';
+@import '../../../../../Styles/Fonts.scss';
 
-.Countries_Api{
+.Currencies_Api{
   @include Pages_Configs;
   height: 95vh;
 
@@ -27,7 +27,7 @@
 
 .Dark_Mode{
 
-  .Countries_Api{
+  .Currencies_Api{
 
     .Used_Api{
       background-color: $secundary_color_dark;
@@ -42,7 +42,7 @@
 
 .Light_Mode{
 
-  .Countries_Api{
+  .Currencies_Api{
 
     .Used_Api{
       background-color: $secundary_color_light;
