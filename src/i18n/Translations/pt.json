@@ -11,6 +11,8 @@
     "Sign up user" : "Registrar utilizador",
     "Send email to recover password" : "Enviar email para recuperar senha",
     "Sign in user" : "Login de empregado",
-    "Reset password user" : "Resetar a senha do utilizador"
+    "Reset password user" : "Resetar a senha do utilizador",
+    "Countries Api" : "Api de países",
+    "Currencies Api" : "Api de moedas"
   }
 }

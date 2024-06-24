@@ -11,6 +11,8 @@
     "Sign up user" : "Sign up user",
     "Send email to recover password" : "Send email to recover password",
     "Sign in user" : "Sign in user",
-    "Reset password user" : "Reset password user"
+    "Reset password user" : "Reset password user",
+    "Countries Api" : "Countries Api",
+    "Currencies Api" : "Currencies_Api"
   }
 }
