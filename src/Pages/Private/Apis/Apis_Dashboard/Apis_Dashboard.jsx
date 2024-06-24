@@ -7,6 +7,10 @@ const Apis_Dashboard = () => {
     <div className='Apis_Dashboard'>
       <div className='Apis_List'>
         <div className='Card'>
+          <span>Currencies Api</span>
+          <Link to="Currencies_Api"><span>Link</span></Link>
+        </div>
+        <div className='Card'>
           <span>Countries Api</span>
           <Link to="Countries_Api"><span>Link</span></Link>
         </div>

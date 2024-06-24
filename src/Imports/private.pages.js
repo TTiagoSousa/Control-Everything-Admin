@@ -4,3 +4,4 @@ export { default as Validations } from '../Pages/Private/Programming/Validations
 export { default as Programming } from '../Pages/Private/Programming/Programming/Programming';
 export { default as Apis_Dashboard } from '../Pages/Private/Apis/Apis_Dashboard/Apis_Dashboard';
 export { default as Countries_Api } from '../Pages/Private/Apis/Countries_Api/Countries_Api';
+export { default as Currencies_Api } from '../Pages/Private/Apis/Currencies_Api/Currencies_Api';
