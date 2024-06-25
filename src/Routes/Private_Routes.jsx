@@ -16,6 +16,7 @@ const Private_Routes = () => {
           <Route path='Countries_Api/' element={ <Private_Page.Countries_Api /> } />
           <Route path='Currencies_Api/' element={ <Private_Page.Currencies_Api /> } />
         </Route>
+        <Route path='Platforms' element={ < Private_Page.Platforms/> } />
       </Routes>
     </>
   )
