@@ -14,6 +14,13 @@
     "Reset password user" : "Resetar a senha do utilizador",
     "Countries Api" : "Api de países",
     "Currencies Api" : "Api de moedas",
-    "Update currencies rate" : "Atualizar rate das moedas"
+    "Update currencies rate" : "Atualizar rate das moedas",
+    "Platform created successfully" : "Plataforma adicionada",
+    "All fields must be filled" : "Todos os campos devem ser preenchidos",
+    "Name" : "Nome",
+    "Image" : "Imagem",
+    "Web site" : "Site",
+    "Platform type" : "Tipo de plataforma",
+    "Add platform" : "Adiciona a plataforma"
   }
 }

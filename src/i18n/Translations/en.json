@@ -14,6 +14,13 @@
     "Reset password user" : "Reset password user",
     "Countries Api" : "Countries Api",
     "Currencies Api" : "Currencies_Api",
-    "Update currencies rate" : "Update currencies rate"
+    "Update currencies rate" : "Update currencies rate",
+    "Platform created successfully" : "Platform created successfully",
+    "All fields must be filled" : "All fields must be filled",
+    "Name" : "Name",
+    "Image" : "Image",
+    "Web site" : "Web site",
+    "Platform type" : "Platform type",
+    "Add platform" : "Add platform"
   }
 }
