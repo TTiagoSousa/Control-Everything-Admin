@@ -13,6 +13,7 @@
     "Sign in user" : "Login de empregado",
     "Reset password user" : "Resetar a senha do utilizador",
     "Countries Api" : "Api de países",
-    "Currencies Api" : "Api de moedas"
+    "Currencies Api" : "Api de moedas",
+    "Update currencies rate" : "Atualizar rate das moedas"
   }
 }
