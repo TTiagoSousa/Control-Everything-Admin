@@ -1,0 +1,118 @@
+@import '../../../../../Styles/Formats.scss';
+@import '../../../../../Styles/Colors.scss';
+@import '../../../../../Styles/Fonts.scss';
+
+.Currencies_Api{
+  @include Pages_Configs;
+  height: 95vh;
+
+  .Alert{
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Used_Api{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: $border_radius;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border: $border;
+
+    a{
+      text-decoration: none;
+      font-family: $font_family_poppins;
+      font-size: 14px;
+    }
+  }
+
+  .Actions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: $border_radius;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border: $border;
+    gap: 10px;
+
+    .Title{
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      span{
+        font-family: $font_family_poppins;
+        font-size: 18px;
+      }
+    }
+
+    .Button_Field{
+      width: 100%;
+      height: 30px;
+    }
+  }
+}
+
+.Dark_Mode{
+
+  .Currencies_Api{
+
+    .Used_Api{
+      background-color: $secundary_color_dark;
+      box-shadow: $box_shadow_dark;
+
+      a{
+        color: $gray;
+      }
+    }
+
+    .Actions{
+      background-color: $secundary_color_dark;
+      box-shadow: $box_shadow_dark;
+
+      .Title{
+
+        span{
+          color: $gray;
+        }
+      }
+    }
+  }
+}
+
+.Light_Mode{
+
+  .Currencies_Api{
+
+    .Used_Api{
+      background-color: $secundary_color_light;
+      box-shadow: $box_shadow_light;
+
+      a{
+        color: $gray_dark;
+      }
+    }
+
+    .Actions{
+      background-color: $secundary_color_light;
+      box-shadow: $box_shadow_light;
+
+      .Title{
+
+        span{
+          color: $gray_dark;
+        }
+      }
+    }
+  }
+}
