@@ -34,6 +34,10 @@ const Validations = () => {
           <span>{t('Create saving transition')}</span>
           <Link target="_blank" to="https://docs.google.com/document/d/13N-w4fyNGrDMvJ4iw4Wv9AjmyPpb4VT-FUFfPIs9agI/edit?usp=drive_link"><span>Link</span></Link>
         </div>
+        <div className='Card'>
+          <span>{t('Transfer savings to savings')}</span>
+          <Link target="_blank" to="https://docs.google.com/document/d/16PIBfpFleVRVr_EM-BvEXqJ_lsfANAIAAIvhd-Se2ts/edit?usp=drive_link"><span>Link</span></Link>
+        </div>
       </div>
     </div>
   )
