@@ -6,3 +6,4 @@ export { default as Apis_Dashboard } from '../Pages/Private/Programming/Apis/Api
 export { default as Countries_Api } from '../Pages/Private/Programming/Apis/Countries_Api/Countries_Api';
 export { default as Currencies_Api } from '../Pages/Private/Programming/Apis/Currencies_Api/Currencies_Api';
 export { default as Platforms } from '../Pages/Private/Menager/Platforms/Platforms';
+export { default as Create_An_Article } from '../Pages/Private/Writer/Create_An_Article/Create_An_Article';

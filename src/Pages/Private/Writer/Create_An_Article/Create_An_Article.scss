@@ -1,0 +1,8 @@
+@import '../../../../Styles/Formats.scss';
+@import '../../../../Styles/Colors.scss';
+@import '../../../../Styles/Fonts.scss';
+
+.Create_An_Article{
+  @include Pages_Configs;
+  height: 95vh;
+}
