@@ -47,8 +47,8 @@
 
       .Card{
         background-color: $secundary_color_dark;
-        box-shadow: $box_shadow_dark;
-        
+        border: $border_dark;
+      
         span{
           color: $gray;
         }
@@ -65,7 +65,7 @@
 
       .Card{
         background-color: $secundary_color_light;
-        box-shadow: $box_shadow_light;
+        border: $border_light;
         
         span{
           color: $gray_darker;

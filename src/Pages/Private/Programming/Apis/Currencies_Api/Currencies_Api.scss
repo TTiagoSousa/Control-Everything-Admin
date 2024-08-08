@@ -22,7 +22,6 @@
     justify-content: center;
     padding: 5px;
     box-sizing: border-box;
-    border: $border;
 
     a{
       text-decoration: none;
@@ -40,7 +39,6 @@
     justify-content: center;
     padding: 5px;
     box-sizing: border-box;
-    border: $border;
     gap: 10px;
 
     .Title{
@@ -69,7 +67,7 @@
 
     .Used_Api{
       background-color: $secundary_color_dark;
-      box-shadow: $box_shadow_dark;
+      border: $border_dark;
 
       a{
         color: $gray;
@@ -78,7 +76,7 @@
 
     .Actions{
       background-color: $secundary_color_dark;
-      box-shadow: $box_shadow_dark;
+      border: $border_dark;
 
       .Title{
 
@@ -96,7 +94,7 @@
 
     .Used_Api{
       background-color: $secundary_color_light;
-      box-shadow: $box_shadow_light;
+      border: $border_light;
 
       a{
         color: $gray_dark;
@@ -105,7 +103,7 @@
 
     .Actions{
       background-color: $secundary_color_light;
-      box-shadow: $box_shadow_light;
+      border: $border_light;
 
       .Title{
 

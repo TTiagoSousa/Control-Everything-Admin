@@ -55,10 +55,25 @@
 
     .Add_Platforms{
       background-color: $secundary_color_dark;
-      box-shadow: $box_shadow_dark;
+      border: $border_dark;
 
       .Title{
         color: $gray;
+      }
+    }
+  }
+}
+
+.Light_Mode{
+
+  .Platforms{
+
+    .Add_Platforms{
+      background-color: $secundary_color_light;
+      border: $border_light;
+
+      .Title{
+        color: $gray_dark;
       }
     }
   }
