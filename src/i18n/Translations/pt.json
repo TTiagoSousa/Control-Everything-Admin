@@ -22,6 +22,8 @@
     "Web site" : "Site",
     "Platform type" : "Tipo de plataforma",
     "Add platform" : "Adiciona a plataforma",
-    "Transfer savings to savings"  : "Transferencia de poupanças para poupanças"
+    "Transfer savings to savings"  : "Transferencia de poupanças para poupanças",
+    "Update saving transition" : "Atualizar uma transição de poupança",
+    "Create saving transition": "Criar transição de poupança"
   }
 }

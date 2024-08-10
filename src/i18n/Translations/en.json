@@ -22,6 +22,8 @@
     "Web site" : "Web site",
     "Platform type" : "Platform type",
     "Add platform" : "Add platform",
-    "Transfer savings to savings" : "Transfer savings to savings"
+    "Transfer savings to savings" : "Transfer savings to savings",
+    "Update saving transition" : "Update saving transition",
+    "Create saving transition": "Create saving transition"
   }
 }
