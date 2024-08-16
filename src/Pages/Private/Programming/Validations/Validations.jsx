@@ -38,6 +38,10 @@ const Validations = () => {
           <span>{t('Update saving transition')}</span>
           <Link target="_blank" to="https://docs.google.com/document/d/136I5Dz7eNQK-tIr2U4pug6QJAOncoXiv5DUsvnawx0w/edit?usp=drive_link"><span>Link</span></Link>
         </div>
+        <div className='Card'>
+          <span>{t('Validate token to update password')}</span>
+          <Link target="_blank" to="https://docs.google.com/document/d/10gbOMHO9hkg4zT3xiPylQiLAd-LMbGjPMGcUieBLN28/edit?usp=drive_link"><span>Link</span></Link>
+        </div>
       </div>
     </div>
   )

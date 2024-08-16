@@ -24,6 +24,7 @@
     "Add platform" : "Adiciona a plataforma",
     "Transfer savings to savings"  : "Transferencia de poupanças para poupanças",
     "Update saving transition" : "Atualizar uma transição de poupança",
-    "Create saving transition": "Criar transição de poupança"
+    "Create saving transition": "Criar transição de poupança",
+    "Validate token to update password" : "Validação de token para atualizar a senha"
   }
 }
