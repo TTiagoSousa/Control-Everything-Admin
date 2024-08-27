@@ -26,6 +26,7 @@
     "Update saving transition" : "Update saving transition",
     "Create saving transition": "Create saving transition",
     "Validate token to update password" : "Validate token to update password",
-    "Update password" : "Update password"
+    "Update password" : "Update password",
+    "Create crypto transition" : "Create crypto transition"
   }
 }

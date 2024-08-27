@@ -49,6 +49,10 @@ const Validations = () => {
           <span>{t('Reset password user')}</span>
           <Link target="_blank" to="https://docs.google.com/document/d/1ZpX0yJNq5HztNfmg0NdT-x784dZu4y3jSSrd9_pOrQ0/edit?usp=drive_link"><span>Link</span></Link>
         </div>
+        <div className='Card'>
+          <span>{t('Create crypto transition')}</span>
+          <Link target="_blank" to="https://docs.google.com/document/d/1ho-RLdGEuXol77tViXzxsRLqVX5dyjiNcXmqRF3t9QY/edit?usp=drive_link"><span>Link</span></Link>
+        </div>
         <div className='Diviser'>
           <h1>Employee</h1>
         </div>
