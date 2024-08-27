@@ -13,6 +13,19 @@
     flex-direction: column;
     gap: 5px;
 
+    .Diviser{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h1{
+        font-family: $font_family_poppins;
+        font-size: 22px;
+      }
+    }
+
     .Card{
       width: 100%;
       display: flex;
@@ -45,6 +58,13 @@
 
     .Validations_Functions{
 
+      .Diviser{
+  
+        h1{
+          color: $gray;
+        }
+      }
+
       .Card{
         background-color: $secundary_color_dark;
         border: $border_dark;
@@ -62,6 +82,13 @@
   .Validations{
 
     .Validations_Functions{
+
+      .Diviser{
+  
+        h1{
+          color: $gray_dark;
+        }
+      }
 
       .Card{
         background-color: $secundary_color_light;

@@ -10,9 +10,8 @@ const Validations = () => {
   return (
     <div className='Validations'>
       <div className='Validations_Functions'>
-        <div className='Card'>
-          <span>{t('Sign in employee')}</span>
-          <Link target="_blank" to="https://docs.google.com/document/d/1bzhTfq_Z92YKDizDtnAmHNZ99NY_VEFaS2b6IPFTesE/edit?usp=drive_link"><span>Link</span></Link>
+        <div className='Diviser'>
+          <h1>User</h1>
         </div>
         <div className='Card'>
           <span>{t('Sign up user')}</span>
@@ -45,6 +44,17 @@ const Validations = () => {
         <div className='Card'>
           <span>{t('Update password')}</span>
           <Link target="_blank" to="https://docs.google.com/document/d/17aBE9sM126wmR2-D5fI33hjc6r65LQoJrBFfYwZZM5U/edit?usp=drive_link"><span>Link</span></Link>
+        </div>
+        <div className='Card'>
+          <span>{t('Reset password user')}</span>
+          <Link target="_blank" to="https://docs.google.com/document/d/1ZpX0yJNq5HztNfmg0NdT-x784dZu4y3jSSrd9_pOrQ0/edit?usp=drive_link"><span>Link</span></Link>
+        </div>
+        <div className='Diviser'>
+          <h1>Employee</h1>
+        </div>
+        <div className='Card'>
+          <span>{t('Sign in employee')}</span>
+          <Link target="_blank" to="https://docs.google.com/document/d/1bzhTfq_Z92YKDizDtnAmHNZ99NY_VEFaS2b6IPFTesE/edit?usp=drive_link"><span>Link</span></Link>
         </div>
       </div>
     </div>
