@@ -18,6 +18,10 @@ const Apis_Dashboard = () => {
           <span>{t('Countries Api')}</span>
           <Link to="Countries_Api"><span>Link</span></Link>
         </div>
+        <div className='Card'>
+          <span>{t('Crypto Api')}</span>
+          <Link to="Crypto_Api"><span>Link</span></Link>
+        </div>
       </div>
     </div>
   )

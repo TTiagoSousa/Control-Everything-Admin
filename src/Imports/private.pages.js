@@ -7,3 +7,4 @@ export { default as Countries_Api } from '../Pages/Private/Programming/Apis/Coun
 export { default as Currencies_Api } from '../Pages/Private/Programming/Apis/Currencies_Api/Currencies_Api';
 export { default as Platforms } from '../Pages/Private/Menager/Platforms/Platforms';
 export { default as Create_An_Article } from '../Pages/Private/Writer/Create_An_Article/Create_An_Article';
+export { default as Crypto_Api } from '../Pages/Private/Programming/Apis/Crypto_Api/Crypto_Api';
