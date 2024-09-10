@@ -1,5 +1,8 @@
 {
   "translation": {
-    "Sign in" : "Sing in"
+    "Sign in" : "Sing in",
+    "Password": "Password",
+    "Email" : "Email",
+    "Number" : "Number"
   }
 }
