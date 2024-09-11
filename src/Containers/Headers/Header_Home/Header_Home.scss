@@ -60,6 +60,15 @@
     position: relative;
     display: flex;
     gap: 10px;
+
+    .Button_Field{
+      position: relative;
+      width: 23px;
+      height: 23px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
 

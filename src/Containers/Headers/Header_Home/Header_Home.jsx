@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header_Home.scss';
 import { NavsState } from '../../../Contexts/Navs_Context';
+import Change_Theme from '../../../Containers/Selectors/Change_Theme/Change_Theme';
 
 const Header_Home = () => {
 
@@ -26,6 +27,9 @@ const Header_Home = () => {
         <span>Control Everytinhg</span>
       </div>
       <div className="Right_Side">
+        <div className='Button_Field'>
+          <Change_Theme />
+        </div>
       </div>
     </header>
   )
