@@ -3,6 +3,12 @@
     "Sign in" : "Iniciar sessão",
     "Password": "Senha",
     "Email" : "Email",
-    "Number" : "Número"
+    "Number" : "Número",
+    "All fields are required" : "Todos os campos são obrigatórios",
+    "Login successful" : "Início de sessão bem-sucedido",
+    "Invalid email address" : "Invalid email address",
+    "Something is wrong" : "Algo está errado",
+    "Account not active" : "A conta não está ativa",
+    "Something went wrong" : "Algo correu mal"
   }
 }

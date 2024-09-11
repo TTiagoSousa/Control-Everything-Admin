@@ -3,6 +3,12 @@
     "Sign in" : "Sing in",
     "Password": "Password",
     "Email" : "Email",
-    "Number" : "Number"
+    "Number" : "Number",
+    "All fields are required" : "All fields are required",
+    "Login successful" : "Login successful",
+    "Invalid email address" : "Invalid email address",
+    "Something is wrong" : "Something is wrong",
+    "Account not active" : "Account not active",
+    "Something went wrong" : "Something went wrong"
   }
 }
