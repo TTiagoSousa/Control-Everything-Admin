@@ -12,6 +12,7 @@ export const navItems = {
       icon: <Icon.Dashboard_Cubes />,
       dropdownItems: [
         { to: '/CE_Work_Space/Functions_Validations', text: 'Functions validations' },
+        { to: '/CE_Work_Space/Brockers_Api', text: 'Brockers Api' },
       ],
     },
   ],
