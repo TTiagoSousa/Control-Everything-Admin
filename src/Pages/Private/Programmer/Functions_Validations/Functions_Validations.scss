@@ -5,4 +5,77 @@
 .Functions_Validations{
   @include Pages_Configs;
   min-height: 95vh;
+
+  .Filters{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: $border_radius;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .Functions{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: $border_radius;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+
+      li{
+
+        a{
+          text-decoration: none;
+          font-family: $font_family_poppins;
+        }
+      }
+    }
+  }
+}
+
+.Dark_Mode{
+
+  .Functions_Validations{
+    
+    .Filters{
+      background-color: $secundary_color_dark;
+      border: $border_dark;
+    }
+
+    .Functions{
+      background-color: $secundary_color_dark;
+      border: $border_dark;
+
+      ul{
+
+        li{
+
+          a{
+            color: $gray;
+
+            &:hover{
+              color: $blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.Light_Mode{
+
 }
