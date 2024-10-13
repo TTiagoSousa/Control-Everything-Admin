@@ -5,8 +5,9 @@ import Simple_Button from '../../../../Components/Buttons/Simple_Button/Simple_B
 import { Link } from 'react-router-dom';
 
 const Functions_Validations = () => {
+  // Inicialize activeTypes como uma lista vazia para que todos os filtros comecem desativados
   const [validations, setValidations] = useState(Validations);
-  const [activeTypes, setActiveTypes] = useState(['User', 'Employee']);
+  const [activeTypes, setActiveTypes] = useState([]); // Agora está vazio
 
   // Função para adicionar ou remover um tipo dos filtros ativos
   const toggleType = (type) => {
@@ -29,9 +30,8 @@ const Functions_Validations = () => {
     <div className='Functions_Validations'>
       <section className='Filters'>
         {allTypes.map((type) => (
-          <div className='Button_Field'>
+          <div className='Button_Field' key={type}>
             <Simple_Button 
-              key={type}
               text={type}
               // Define o estilo do botão com base no estado de ativo/inativo
               buttonStyle={activeTypes.includes(type) ? 'type3' : 'type2'}
