@@ -27,7 +27,7 @@
     border-radius: 10px 0px 0px 10px;
 
     span {
-      color: $white;
+      color: $white !important;
       font-family: $font_family_poppins;
       font-size: 10px;
     }
@@ -46,7 +46,7 @@
     border-radius: 0px 10px 10px 0px;
     font-family: $font_family_open_sans;
     background-color: $primary_color_dark;
-    color: $gray;
+    color: $gray !important;
     border-top: $border_dark;
     border-bottom: $border_dark;
     border-right: $border_dark;

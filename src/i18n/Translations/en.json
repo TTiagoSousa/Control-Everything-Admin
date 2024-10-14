@@ -9,6 +9,7 @@
     "Invalid email address" : "Invalid email address",
     "Something is wrong" : "Something is wrong",
     "Account not active" : "Account not active",
-    "Something went wrong" : "Something went wrong"
+    "Something went wrong" : "Something went wrong",
+    "Broker added successfully" : "Broker added successfully"
   }
 }
