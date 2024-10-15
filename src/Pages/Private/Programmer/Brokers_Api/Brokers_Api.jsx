@@ -66,7 +66,7 @@ const Brokers_Api = () => {
         <div className='Button_Field'>
           <Global_Button 
             text={loading ? t('Loading...') : t('Add new broker')} // Botão exibe 'Loading...' quando está carregando
-            onClick={handleSubmit}
+            onClick={addNewAutorizedBroker}
             disabled={loading} // Desabilita o botão enquanto carrega
           />
         </div>

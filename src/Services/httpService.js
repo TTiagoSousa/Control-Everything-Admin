@@ -12,7 +12,7 @@ http.interceptors.request.use(
   config => {
 
     // Get the token from cookies
-    const token = Cookies.get('rthtrh3445gv@@firnf1rgher');
+    const token = Cookies.get('erg::#4%&gtreatrbaetrg53df');
 
     // If the token exists, add it to the Authorization header
     if (token) {

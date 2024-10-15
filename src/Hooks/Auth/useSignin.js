@@ -63,7 +63,7 @@ export const useSignin = () => {
 
       setTimeout(() => {
         navigate('/CE_Work_Space/Dashboard');
-        window.location.reload();
+ 
       }, 3000);
 
     }catch (error) {

@@ -64,8 +64,6 @@ const DataBaseContext = ({ children }) => {
     checkAuthentication();
   }, [checkAuthentication]);
 
-  console.log(userJob)
-
   return (
     <DataBase.Provider
       value={{
