@@ -7,10 +7,14 @@ import * as Color from '../../../Styles/Colors';
 import * as Icon from '../../../Imports/icons';
 import { navItems } from '../Navigation_Map';
 import Dark_Div from '../../../Components/Dark_Div/Dark_Div';
+import { getCookie } from '../../../Utils/Cookies/get.cookies';
 
 const Mobile_Menu_Home = () => {
 
   const { mobile_Sidebar_Home, set_Mobile_Sidebar_Home } = NavsState();
+  
+  const employeeType = getCookie('rega434tgr_#23efdf2df');
+  const NavMap = navItems[employeeType] || [];
 
   const location = useLocation();
 
@@ -64,7 +68,7 @@ const Mobile_Menu_Home = () => {
 
       <nav className={`Mobile_Sidebar_Home ${mobile_Sidebar_Home ? 'active' : ''}`} style={sidebarStyle}>
         <div className="Mobile_Menu_Body">
-          {navItems.map((item, index) => (
+          {NavMap.map((item, index) => (
             <React.Fragment key={index}>
               {item.dropdownItems ? (
                 <>
