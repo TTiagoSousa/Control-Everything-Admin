@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Brokers_Api.scss';
 import Global_Input from '../../../../Components/Inputs/Global_Input/Global_Input';
 import { useTranslation } from 'react-i18next';
@@ -15,13 +15,15 @@ const Brokers_Api = () => {
     logo, setLogo,
     webSite, setWebSite,
     type, setType,
-    loading, // Estado de carregamento
     addNewAutorizedBroker
   } = useAddNewAutorizedBroker();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    addNewAutorizedBroker();
+  const [loading, setLoading] = useState(false); // Estado local para o botão
+
+  const handleClick = async () => {
+    setLoading(true); // Muda o estado para loading
+    await addNewAutorizedBroker();
+    setLoading(false); // Volta ao estado normal após a execução
   };
 
   return (
@@ -66,7 +68,7 @@ const Brokers_Api = () => {
         <div className='Button_Field'>
           <Global_Button 
             text={loading ? t('Loading...') : t('Add new broker')} // Botão exibe 'Loading...' quando está carregando
-            onClick={addNewAutorizedBroker}
+            onClick={handleClick}
             disabled={loading} // Desabilita o botão enquanto carrega
           />
         </div>

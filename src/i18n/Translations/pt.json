@@ -10,6 +10,12 @@
     "Something is wrong" : "Algo está errado",
     "Account not active" : "A conta não está ativa",
     "Something went wrong" : "Algo correu mal",
-    "Broker added successfully" : "Corretora adicíonada com sucesso"
+    "Broker added successfully" : "Corretora adicíonada com sucesso",
+    "Loading..." : "A carregar...",
+    "Add new broker" : "Adicionar uma nova corretora",
+    "Name" : "Nome",
+    "WebSite" : "Site",
+    "Logo" : "Logo",
+    "Platform type" : "Tipo de plataforma"
   }
 }

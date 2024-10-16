@@ -35,21 +35,18 @@ export const useAddNewAutorizedBroker = () => {
         type
       };
 
-      // Fazendo a requisição POST para a API com os dados fornecidos
       const response = await http.post(`autorized-broker-api/${userId}/add-new-broker`, brokerData);
 
-      if (response.status === 200) {
+      setAlert({
+        open: true,
+        message: t('Broker added successfully'),
+        type: 'success',
+      });
 
-        setAlert({
-          open: true,
-          message: t('Broker added successfully'),
-          type: 'success',
-        });
-
-        setTimeout(() => {
-          window.location.reload();
-        }, 3000);
-      }
+      setTimeout(() => {
+        window.location.reload();
+      }, 3000);
+      
     } catch (error) {
       // Tratamento de erro
       if (error.response && error.response.status === 400) {
